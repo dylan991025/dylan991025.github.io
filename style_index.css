@@ -1,0 +1,15 @@
+aside {
+  width: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 20px;
+  float: right;
+  font-style: italic;
+  background-color: lightblue;
+  margin-top: 200px;
+}
+
+body {}
+h2 { font-family: sans-serif; font-size: x-large; color: darkblue}
+h3 {}
