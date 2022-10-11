@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <h2>JavaScript in Body</h2>
+    <p id="demo"></p>
+
+    <script>
+    var dt = new Date();
+    var month = dt.getMonth() ;
+    var date = dt.getDate();
+    var day = dt.getDay();
+    var hour = dt.getHours();
+
+    switch(day){
+        case 0: day = "Sunday";break;
+        case 1: day = "Monday";break;
+        case 2: day = "Tuesday";break;
+        case 3: day = "Wednesday";break;
+        case 4: day = "Thursday";break;
+        case 5: day = "Friday";break;
+        case 6: day = "Saturday";break;
+    }
+
+    switch(month){
+        case 0: month = "JAN";break;
+        case 1: month = "FEB";break;
+        case 2: month = "MAR";break;
+        case 3: month = "APR";break;
+        case 4: month = "MAY";break;
+        case 5: month = "JUNE";break;
+        case 6: month = "JULY";break;
+        case 7: month = "AUG";break;
+        case 8: month = "SEP";break;
+        case 9: month = "OCT";break;
+        case 10: month = "NOV";break;
+        case 11: month = "DEC";break;
+    }
+
+    function daytime(x,y,z) {return "Today" + x + y + z;};
+    document.getElementById("demo").innerHTML = daytime(month,date,day);
+</script>
+<script>
+   
+    </script>
+  </body>
+</html>

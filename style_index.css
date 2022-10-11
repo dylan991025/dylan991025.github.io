@@ -1,15 +1,25 @@
 aside {
   width: 20%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
   margin-left: 10px;
-  margin-right: 20px;
-  float: right;
+  float:right;
   font-style: italic;
-  background-color: lightblue;
-  margin-top: 200px;
-}
+  background-color: gold;}
+  
+  h2{
+      margin-top: 10px;
+      margin-left: 100px;}
+  .pree{
+background-color: black;
+color: white;}
+  
+  .jgsg{ 
+    margin-left:40px;
+  }
+  li,h3 {
+    margin-left:20px;
+  }
 
-body {}
-h2 { font-family: sans-serif; font-size: x-large; color: darkblue}
-h3 {}
+  #layout {
+    display:grid;
+  }
