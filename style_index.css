@@ -1,14 +1,9 @@
 aside {
-  width: 20%;
-  padding-left: 10px;
-  margin-left: 10px;
-  float:right;
-  font-style: italic;
   background-color: gold;}
-  
+  hr { border: 2px black}
   h2{
       margin-top: 10px;
-      margin-left: 100px;}
+      margin-left: 50px;}
   .pree{
 background-color: black;
 color: white;}
@@ -20,6 +15,14 @@ color: white;}
     margin-left:20px;
   }
 
-  #layout {
-    display:grid;
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
   }
+
+  .black {
+    color:black
+  }
+  .photo1 { max-height: 60}
