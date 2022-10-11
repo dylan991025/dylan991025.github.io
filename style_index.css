@@ -30,4 +30,13 @@ color: white;}
   }
   .photo1 { max-height: 60}
 
+  .head2{
+    font-size:300%;
+    text-align: center;}
+  .head3{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    font-size:400%;
+  }
   .mySlides {display:none;}
