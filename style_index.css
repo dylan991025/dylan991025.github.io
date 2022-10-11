@@ -1,18 +1,21 @@
 aside {
   background-color: gold;}
   hr { border: 2px black}
-  h2{
+  .head1{
       margin-top: 10px;
-      margin-left: 50px;}
+      margin-left: 50px;
+     font-size:300%;}
   .pree{
 background-color: black;
 color: white;}
   
   .jgsg{ 
     margin-left:40px;
+    font-size: 150%;
   }
-  li,h3 {
-    margin-left:20px;
+  li {
+    margin-left:25px;
+    font-size: 150%;
   }
 
   .center {
@@ -26,3 +29,5 @@ color: white;}
     color:black
   }
   .photo1 { max-height: 60}
+
+  .mySlides {display:none;}
