@@ -33,10 +33,10 @@ color: white;}
   .head2{
     font-size:300%;
     text-align: center;}
+  
   .head3{
     writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: center;
-    font-size:400%;
-  }
+    font-size:400%; }
   .mySlides {display:none;}
