@@ -37,4 +37,4 @@ color: white;}
     text-orientation: upright;
     text-align: center;
     font-size:400%; }
-  .mySlides {display:none;}
+  .mySlides {display:none;width:100%}
