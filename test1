@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <title>Cho Young Sang</title>
+    <link rel="stylesheet" href="style_index.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="pree">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cho Young Sang <sup>since 1999</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Cho Young Sang <sup>since 1999</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item " href="#part2">자기소개 </a></li>
+                  <li><a class="dropdown-item " href="#part3">활동이력 </a></li>
+                  <li><a class="dropdown-item " href="#part4">취미/관심사 </a></li>
+                  <li><a class="dropdown-item " href="#part5">참고자료 </a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Others
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <a class="nav-link" href="https://dylan991025.github.io/timetable">시간표</a></li>
+                    <a class="nav-link" href="#">Link</a></li>
+                    <a class="nav-link" href="#">Link</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <br>
+    <br>
+    <br>
+<section class="container">
+<div class="row justify-content-center">
+<span class="head3 col-md-1 col-1" id="part1"> DYLAN CHO</span>
+<img  class="col-md-11 col-11" border="0" alt="Profile Picture" src="profile_3.jpg" width="100%"></div>
+<br><br>
+ 
+<div class="row justify-content-center"><hr><br><br>
+<main class= "col-md-7 col-12"> <br>
+<p class="head1" id="part2">  자기소개</p>
+<p class="jgsg">
+  이름 (한글): 조영상 <br>
+  이름 (영문): Cho Young Sang<br>
+  생년월일   : 1999년 10월 00일<br>
+  연락처     : +82-10-4868-0000<br>
+  이메일     : 00000000@gmail.com</p>  
+<hr>
+<p class="head1" id="part3">활동이력</p>
+    <li>주짓수 블루벨트 획득</li>
+    <li>골프 Teaching Pro 자격증 취득</li>
+    <li>국제 리오 클럽 최우수 회장상 수상</li>
+    <li>문재인 대통령 해외방문 통역 및 보조요원 활동 </li>
+    <li>연세대학교 바이오생활공학 입학 </li>
+    <li>(주)메이크잇 인턴</li>
+    <li>대학생연합투자동아리 설립</li>
+    <li> 연세대학교 의약식품공학연구실 인턴</li>
+    <li>APOWER의 바이오 매스 에너지 & 환경 종합 플랫폼 사업 번역</li>
+    <li> 2022-1학기 GLC Distinction Award 2과목 수상 </li>
+    <li> K-Beauty Expo Korea 2022 통역</li>
+  </main>
+  
+ <main-photo class="col-md-5 col-6" > <br><br><br><br> 
+  <a href="https://dylan991025.github.io/timetable" >
+    <img border="0" alt="Profile Picture" src="profile_1.png" width="100%">
+    </a>
+ </main-photo></div>
+ <hr><br>
+
+ <div class="row justify-content-center">
+  <div class="col-md-12 col-12">
+  <p id="part4" class="head2">취미/관심사</p>
+  <img class="mySlides" src="golf.jpg"  >
+  <img class="mySlides" src="stock.jpg" >
+  <img class="mySlides" src="bjj.jpg"   ><br></div>
+  <hr>
+  <br>
+<iframe id="part5" class=" col-md-12 col-12" width="100%" height="350" src="https://www.youtube.com/embed/gSzVrBrmrfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</div></section>
+
+<footer class="col-12 footer copyright py-4 text-center bg-dark text-white">
+  Copyright © 2022
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1500); 
+  }
+  </script>
+</body>
+</html>
