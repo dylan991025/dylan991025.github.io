@@ -8,61 +8,74 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body class="pree">
-<br><br>
-
-  <nav class="navbar navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand " href="#">Cho Young Sang <sup>since 1999</sup></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item black" href="#">Action</a></li>
-                <li><a class="dropdown-item black" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cho Young Sang <sup>since 1999</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Cho Young Sang <sup>since 1999</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item " href="#part2">자기소개 </a></li>
+                  <li><a class="dropdown-item " href="#part3">활동이력 </a></li>
+                  <li><a class="dropdown-item " href="#part4">취미/관심사 </a></li>
+                  <li><a class="dropdown-item " href="#part5">참고자료 </a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Others
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <a class="nav-link" href="https://dylan991025.github.io/timetable">시간표</a></li>
+                    <a class="nav-link" href="#">Link</a></li>
+                    <a class="nav-link" href="#">Link</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
               </ul>
-            </li>
-          </ul>
-          <form class="d-flex mt-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </nav>
+      </nav>
     <br>
     <br>
     <br>
 <section class="container">
 <div class="row justify-content-center">
-<span class="head3 col-md-1 col-1"> DYLAN CHO</span>
+<span class="head3 col-md-1 col-1" id="part1"> DYLAN CHO</span>
 <img  class="col-md-11 col-11" border="0" alt="Profile Picture" src="profile_3.jpg" width="100%"></div>
 <br><br>
  
 <div class="row justify-content-center"><hr><br><br>
 <main class= "col-md-7 col-12"> <br>
-<p class="head1" id="intro">  자기소개</p>
+<p class="head1" id="part2">  자기소개</p>
 <p class="jgsg">
   이름 (한글): 조영상 <br>
   이름 (영문): Cho Young Sang<br>
@@ -70,7 +83,7 @@
   연락처     : +82-10-4868-0000<br>
   이메일     : 00000000@gmail.com</p>  
 <hr>
-<p class="head1">활동이력</p>
+<p class="head1" id="part3">활동이력</p>
     <li>주짓수 블루벨트 획득</li>
     <li>골프 Teaching Pro 자격증 취득</li>
     <li>국제 리오 클럽 최우수 회장상 수상</li>
@@ -93,13 +106,13 @@
 
  <div class="row justify-content-center">
   <div class="col-md-12 col-12">
-  <p id="hobby" class="head2">취미/관심사</p>
+  <p id="part4" class="head2">취미/관심사</p>
   <img class="mySlides" src="golf.jpg"  >
   <img class="mySlides" src="stock.jpg" >
   <img class="mySlides" src="bjj.jpg"   ><br></div>
   <hr>
   <br>
-<iframe class=" col-md-12 col-12" width="100%" height="350" src="https://www.youtube.com/embed/gSzVrBrmrfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+<iframe id="part5" class=" col-md-12 col-12" width="100%" height="350" src="https://www.youtube.com/embed/gSzVrBrmrfU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 </div></section>
